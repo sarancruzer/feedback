@@ -37,12 +37,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <section id="content">
 		 <ul id="profile-dropdowns" style="margin-left: 950px; width: 100px;height: 70px; display: none;  position: absolute; background: white;">
               <li style="height: 40px;">
-                <a href="http://thoughtbuzz.in/Feedback_system/index.php/profile/index/0" class="grey-text text-darken-1">
+                <a href="http://3.16.113.57/feedback/index.php/profile/index/0" class="grey-text text-darken-1">
                   <i class="material-icons">face</i> Profile</a>
               </li>
               
               <li>
-                <a href="http://thoughtbuzz.in/Feedback_system/" class="grey-text text-darken-1">
+                <a href="http://3.16.113.57/feedback/" class="grey-text text-darken-1">
                   <i class="material-icons">keyboard_tab</i> Logout</a>
               </li>
             </ul>
@@ -205,7 +205,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </form>
 					 <div class="right">
 			 Download sample csv file	  
-			<a class="dropdown-button btn-floating btn-large waves-light" href="http://thoughtbuzz.in/Feedback_system/samplequestions.csv" data-activates="dropdown2">
+			<a class="dropdown-button btn-floating btn-large waves-light" href="http://3.16.113.57/feedback/samplequestions.csv" data-activates="dropdown2">
                         <i class="material-icons">vertical_align_bottom</i>
                       </a>			  
 			  </div>
@@ -451,7 +451,7 @@ $('.container').click(function(){
 			
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/questions/getcat/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/questions/getcat/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#state-list").html(data);
@@ -464,7 +464,7 @@ $('.container').click(function(){
 			
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/questions/getcat/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/questions/getcat/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#state-listimp").html(data);

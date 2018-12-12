@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   
         $.ajax({
         type: 'POST',
-        url: 'http://thoughtbuzz.in/Feedback_system/index.php/charts/getdata/0',
+        url: 'http://3.16.113.57/feedback/index.php/charts/getdata/0',
 		
           
         success: function (data1) {

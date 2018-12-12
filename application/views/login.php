@@ -118,7 +118,7 @@
                   $.ajax({
 
 
-          					url: "http://thoughtbuzz.in/Feedback_system/index.php/login/loginprocess",
+          					url: "http://3.16.113.57/feedback/index.php/login/loginprocess",
 
 
                     type: "POST",

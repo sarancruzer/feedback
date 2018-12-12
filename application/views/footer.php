@@ -187,9 +187,9 @@
       <div class="footer-copyright">
          <div class="container">
             <span>
-               Copyright ©              <script type="text/javascript">                document.write(new Date().getFullYear());              </script> <a class="grey-text text-lighten-2" href="http://thoughtbuzz.in/Feedback_system/" target="_blank">Feedback System</a> All rights reserved.
+               Copyright ©              <script type="text/javascript">                document.write(new Date().getFullYear());              </script> <a class="grey-text text-lighten-2" href="http://3.16.113.57/feedback/" target="_blank">Feedback System</a> All rights reserved.
             </span>
-            <span class="right hide-on-small-only"> Design and Developed by <a class="grey-text text-lighten-2" href="http://thoughtbuzz.in/Feedback_system/">Feedback System</a></span>          
+            <span class="right hide-on-small-only"> Design and Developed by <a class="grey-text text-lighten-2" href="http://3.16.113.57/feedback/">Feedback System</a></span>          
          </div>
       </div>
    </div>

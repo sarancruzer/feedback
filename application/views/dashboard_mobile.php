@@ -12,12 +12,12 @@ $user_type = $this->session->userdata('user_type');
         <section id="content">
 		<ul id="profile-dropdowns" style="margin-left: 950px;width: 100px;height: 70px; display: none;  position: absolute; background: white;z-index: 1;">
               <li style="height: 40px;">
-                <a href="http://thoughtbuzz.in/Feedback_system/index.php/profile/index/0" class="grey-text text-darken-1">
+                <a href="http://3.16.113.57/feedback/index.php/profile/index/0" class="grey-text text-darken-1">
                   <i class="material-icons">face</i> Profile</a>
               </li>
               
               <li>
-                <a href="http://thoughtbuzz.in/Feedback_system/" class="grey-text text-darken-1">
+                <a href="http://3.16.113.57/feedback/" class="grey-text text-darken-1">
                   <i class="material-icons">keyboard_tab</i> Logout</a>
               </li>
             </ul>
@@ -316,7 +316,7 @@ $user_type = $this->session->userdata('user_type');
         var dataString = 'category_id=' + category_id;
         $.ajax({
         type: 'POST',
-        url: "http://thoughtbuzz.in/Feedback_system/index.php/charts/getdata/0?"+dataString,
+        url: "http://3.16.113.57/feedback/index.php/charts/getdata/0?"+dataString,
 		data: dataString,
 		
           
@@ -375,7 +375,7 @@ $user_type = $this->session->userdata('user_type');
         var dataString = 'team=' + category_id;
         $.ajax({
         type: 'POST',
-        url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getdatateam/0?"+dataString,
+        url: "http://3.16.113.57/feedback/index.php/dashboard/getdatateam/0?"+dataString,
 		data: dataString,
 		
           
@@ -437,7 +437,7 @@ $user_type = $this->session->userdata('user_type');
         var dataString = 'department=' + category_id;
         $.ajax({
         type: 'POST',
-        url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getdatadepartment/0?"+dataString,
+        url: "http://3.16.113.57/feedback/index.php/dashboard/getdatadepartment/0?"+dataString,
 		data: dataString,
 		
           
@@ -507,7 +507,7 @@ $user_type = $this->session->userdata('user_type');
 	     
         var dataString = 'category_id=' + category_id;
       var jsonData = $.ajax({ 
-          url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/get_all_yes_no/0?"+dataString, 
+          url: "http://3.16.113.57/feedback/index.php/dashboard/get_all_yes_no/0?"+dataString, 
           dataType: "json", 
           async: false 
           }).responseText; 
@@ -542,7 +542,7 @@ $user_type = $this->session->userdata('user_type');
 	     
         var dataString = 'category_id=' + category_id;
       var jsonData = $.ajax({ 
-          url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/get_all_yes_no_qus/0?"+dataString, 
+          url: "http://3.16.113.57/feedback/index.php/dashboard/get_all_yes_no_qus/0?"+dataString, 
           dataType: "json", 
           async: false 
           }).responseText; 
@@ -586,7 +586,7 @@ $user_type = $this->session->userdata('user_type');
 	     
         var dataString = 'category_id=' + category_id;
       var jsonData = $.ajax({ 
-          url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/get_all_yes_no_poll/0?"+dataString, 
+          url: "http://3.16.113.57/feedback/index.php/dashboard/get_all_yes_no_poll/0?"+dataString, 
           dataType: "json", 
           async: false 
           }).responseText; 
@@ -620,7 +620,7 @@ $user_type = $this->session->userdata('user_type');
 	     
         var dataString = 'category_id=' + category_id;
       var jsonData = $.ajax({ 
-          url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/get_all_yes_no_pollsearch/0?"+dataString, 
+          url: "http://3.16.113.57/feedback/index.php/dashboard/get_all_yes_no_pollsearch/0?"+dataString, 
           dataType: "json", 
           async: false 
           }).responseText; 
@@ -671,7 +671,7 @@ function getOrganization(val) {
 			//getdep(val);
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getteamanddep/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/dashboard/getteamanddep/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#state-list").html(data);
@@ -684,7 +684,7 @@ function getdep(val) {
 			
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getdep/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/dashboard/getdep/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#dep-list").html(data);
@@ -696,7 +696,7 @@ function getdep(val) {
 			
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getqus/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/dashboard/getqus/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#qus-list").html(data);
@@ -710,7 +710,7 @@ function getdep(val) {
 			
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getquspoll/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/dashboard/getquspoll/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#qus-list2").html(data);
@@ -764,7 +764,7 @@ function getOrganization33(val) {
 			//getdep33(val);
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getteamanddep/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/dashboard/getteamanddep/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#bar1").html(data);
@@ -778,7 +778,7 @@ function getdep33(val) {
 			
 			$.ajax({
 			type: "POST",
-			url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getdep/0?Organization_id="+val,
+			url: "http://3.16.113.57/feedback/index.php/dashboard/getdep/0?Organization_id="+val,
 			data:'Organization_id='+val,
 			success: function(data){
 				$("#dep-list33").html(data);
@@ -795,7 +795,7 @@ function getdep33(val) {
 			
 			 $.ajax({
         type: 'POST',
-        url: "http://thoughtbuzz.in/Feedback_system/index.php/dashboard/getcompere/0?bar1="+bar1+"&bar2="+bar2,
+        url: "http://3.16.113.57/feedback/index.php/dashboard/getcompere/0?bar1="+bar1+"&bar2="+bar2,
 		data: dataString,
 		
           

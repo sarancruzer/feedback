@@ -93,7 +93,7 @@ class Poll{
 		//echo "yyyyyyyyyyyyyyyyyyyyyyyyyyyyy";
 		// var_dump($data);
       /*   if(empty($data['poll_id']) || empty($data['poll_option_id']) || empty($_COOKIE[$data['poll_id']])) {
-			$url="Location: http://thoughtbuzz.in/Feedback_system/index.php/admin_voting/index/?pollID=".$data['poll_id'];
+			$url="Location: http://3.16.113.57/feedback/index.php/admin_voting/index/?pollID=".$data['poll_id'];
             return false;
         }else{  */
 		
@@ -102,12 +102,12 @@ class Poll{
 			if($preVote > 0){
                 $query = "UPDATE ".$this->voteTbl." SET vote_count = vote_count+1 WHERE poll_id = ".$data['poll_id']." AND poll_option_id = ".$data['poll_option_id'];
                 $update = $this->db->query($query);
-				$url="Location: http://thoughtbuzz.in/Feedback_system/index.php/admin_voting/index/?pollID=".$data['poll_id'];
+				$url="Location: http://3.16.113.57/feedback/index.php/admin_voting/index/?pollID=".$data['poll_id'];
 				header($url);
             }else{
                 $query = "INSERT INTO ".$this->voteTbl." (poll_id,poll_option_id,vote_count) VALUES (".$data['poll_id'].",".$data['poll_option_id'].",1)";
                 $insert = $this->db->query($query);
-				$url="Location: http://thoughtbuzz.in/Feedback_system/index.php/admin_voting/index/?pollID=".$data['poll_id'];
+				$url="Location: http://3.16.113.57/feedback/index.php/admin_voting/index/?pollID=".$data['poll_id'];
 			header($url);
             }
             return true;
@@ -293,7 +293,7 @@ if(!isset($_GET['pollID'])){
 
 if(isset($_COOKIE[$pollData['poll']['id']] )==1) {
 	
-			$url="Location: http://thoughtbuzz.in/Feedback_system/index.php/admin_voting/index/?pollID=".$pollData['poll']['id'];
+			$url="Location: http://3.16.113.57/feedback/index.php/admin_voting/index/?pollID=".$pollData['poll']['id'];
             header($url);
         }
 
@@ -324,7 +324,7 @@ if(isset($_COOKIE[$pollData['poll']['id']] )==1) {
 	<input type="hidden" name="emp_id" value="<?php echo $this->session->userdata('user_id');; ?>">
     <input type="hidden" name="pollID" value="<?php echo $pollData['poll']['id']; ?>">
     <input type="submit" name="voteSubmit" class="button" value="Vote">
-    <a style="display: none;" href="http://thoughtbuzz.in/Feedback_system/index.php/admin_voting/index/?pollID=<?php echo $pollData['poll']['id']; ?>">Results</a>
+    <a style="display: none;" href="http://3.16.113.57/feedback/index.php/admin_voting/index/?pollID=<?php echo $pollData['poll']['id']; ?>">Results</a>
     </form>
 </div>
 
@@ -420,7 +420,7 @@ $(document).ready(function(){
 	function fetch_poll_data()
 	{
 		$.ajax({
-			url:"http://thoughtbuzz.in/Feedback_system/fetch_poll_data.php",
+			url:"http://3.16.113.57/feedback/fetch_poll_data.php",
 			method:"POST",
 			success:function(data)
 			{
@@ -443,7 +443,7 @@ $(document).ready(function(){
 			$('#poll_button').attr('disabled', 'disabled');
 			var form_data = $(this).serialize();
 			$.ajax({
-				url:"http://thoughtbuzz.in/Feedback_system/poll.php",
+				url:"http://3.16.113.57/feedback/poll.php",
 				method:"POST",
 				data:form_data,
 				success:function()

@@ -181,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           
                           
 						   <td><?php echo $row->mobile_number; ?></td>
-						   <td style="display:none"><a class="test" onclick="go('http://thoughtbuzz.in/Feedback_system/index.php/employees2/index/<?php echo $row->id; ?>')" >Add Employee</a></td>
+						   <td style="display:none"><a class="test" onclick="go('http://3.16.113.57/feedback/index.php/employees2/index/<?php echo $row->id; ?>')" >Add Employee</a></td>
 						   
 						   
 						   

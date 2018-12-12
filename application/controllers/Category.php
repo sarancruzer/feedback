@@ -24,7 +24,7 @@
         $result = $this->db->get_where("category", array("category"=>$this->input->post('category'),'org_id' => $this->input->post('org_id')))->result();
 	      if(count($result) > 0){	
 		 echo "<script>alert('Category name already used. Want to try with a different name?');
-         window.location.href='http://thoughtbuzz.in/Feedback_system/index.php/category/index/0';
+         window.location.href='http://3.16.113.57/feedback/index.php/category/index/0';
          </script>";
 		  //redirect("category/index/0");
 		  }else{		  

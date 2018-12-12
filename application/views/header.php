@@ -122,13 +122,13 @@ $q = $this -> db
                 </a>
               </li>
               <li>
-                <a href="http://thoughtbuzz.in/Feedback_system/index.php/profile/index/0" class="waves-block waves-light">
+                <a href="http://3.16.113.57/feedback/index.php/profile/index/0" class="waves-block waves-light">
                   <i class="material-icons">face</i>
                 </a>
               </li>
 			  
 			  <li>
-                <a href="http://thoughtbuzz.in/Feedback_system/" class="waves-block waves-light">
+                <a href="http://3.16.113.57/feedback/" class="waves-block waves-light">
                   <i class="material-icons">keyboard_tab</i>
                 </a>
               </li>
@@ -204,7 +204,7 @@ $q = $this -> db
             <!-- profile-dropdown -->
             <ul id="profile-dropdown" class="dropdown-content">
               <li>
-                <a href="http://thoughtbuzz.in/Feedback_system/index.php/profile/index/0" class="grey-text text-darken-1">
+                <a href="http://3.16.113.57/feedback/index.php/profile/index/0" class="grey-text text-darken-1">
                   <i class="material-icons">face</i> Profile</a>
               </li>
               <li style="display:none">
@@ -221,7 +221,7 @@ $q = $this -> db
                   <i class="material-icons">lock_outline</i> Lock</a>
               </li>
               <li>
-                <a href="http://thoughtbuzz.in/Feedback_system/" class="grey-text text-darken-1">
+                <a href="http://3.16.113.57/feedback/" class="grey-text text-darken-1">
                   <i class="material-icons">keyboard_tab</i> Logout</a>
               </li>
             </ul>
@@ -252,7 +252,7 @@ $q = $this -> db
                 <div class="col col s8 m8 l8">
                   <ul id="profile-dropdown-nav" class="dropdown-content">
                     <li>
-                      <a href="http://thoughtbuzz.in/Feedback_system/index.php/profile/index/0" class="grey-text text-darken-1">
+                      <a href="http://3.16.113.57/feedback/index.php/profile/index/0" class="grey-text text-darken-1">
                         <i class="material-icons">face</i> Profile</a>
                     </li>
                     <li style="display:none">
@@ -269,7 +269,7 @@ $q = $this -> db
                         <i class="material-icons">lock_outline</i> Lock</a>
                     </li>
                     <li>
-                      <a href="http://thoughtbuzz.in/Feedback_system/" class="grey-text text-darken-1">
+                      <a href="http://3.16.113.57/feedback/" class="grey-text text-darken-1">
                         <i class="material-icons">keyboard_tab</i> Logout</a>
                     </li>
                   </ul>
@@ -281,7 +281,7 @@ $q = $this -> db
             <li class="no-padding">
               <ul class="collapsible" data-collapsible="accordion">
                 <li class="bold" id="dashboard1">
-                  <a  href="http://thoughtbuzz.in/Feedback_system/index.php/dashboard/index/0">
+                  <a  href="http://3.16.113.57/feedback/index.php/dashboard/index/0">
                     <i class="material-icons">dashboard</i>
                     <span class="nav-text">Dashboard</span>
                   </a>
@@ -289,7 +289,7 @@ $q = $this -> db
                 </li>
 				
 				<li class="bold" id="dashboard1" style="display:none">
-                  <a  href="http://thoughtbuzz.in/Feedback_system/index.php/charts/index/0">
+                  <a  href="http://3.16.113.57/feedback/index.php/charts/index/0">
                     <i class="material-icons">dashboard</i>
                     <span class="nav-text">Charts</span>
                   </a>
@@ -297,7 +297,7 @@ $q = $this -> db
                 </li>
 				<?php  if($user_type == 1){?>
 				<li class="bold" id="Organization1">
-                  <a href="http://thoughtbuzz.in/Feedback_system/index.php/organization/index/0">
+                  <a href="http://3.16.113.57/feedback/index.php/organization/index/0">
                     <i class="material-icons">dvr</i>
                     <span class="nav-text">Organizations</span>
                   </a>
@@ -305,7 +305,7 @@ $q = $this -> db
                 </li>
 				
                 <li class="bold" id="Categories1">
-                 <a href="http://thoughtbuzz.in/Feedback_system/index.php/category/index/0">
+                 <a href="http://3.16.113.57/feedback/index.php/category/index/0">
                     <i class="material-icons">dvr</i>
                     <span class="nav-text">Categories</span>
                   </a>
@@ -313,7 +313,7 @@ $q = $this -> db
                 </li>
 				<?php } if($user_type == 3 || $user_type == 0 || $user_type == 1){?>
                 <li class="bold" id="Questions1" >
-                 <a href="http://thoughtbuzz.in/Feedback_system/index.php/questions/index/0">
+                 <a href="http://3.16.113.57/feedback/index.php/questions/index/0">
                     <i class="material-icons">web</i>
                     <span class="nav-text">Question Bank</span>
                   </a>
@@ -321,14 +321,14 @@ $q = $this -> db
                 </li>
 				<?php } if($user_type == 3 || $user_type == 1 || $user_type == 0){?>
 				<li class="bold" id="Poll_voting1" >
-                 <a href="http://thoughtbuzz.in/Feedback_system/index.php/poll_voting/index/0">
+                 <a href="http://3.16.113.57/feedback/index.php/poll_voting/index/0">
                     <i class="material-icons">web</i>
                     <span class="nav-text">Poll Questions</span>
                   </a>
                  
                 </li>
                 <li class="bold" id="Employees1" >
-                  <a href="http://thoughtbuzz.in/Feedback_system/index.php/employees/index/0">
+                  <a href="http://3.16.113.57/feedback/index.php/employees/index/0">
                     <i class="material-icons">cast</i>
                     <span class="nav-text">Employees</span>
                   </a>
@@ -336,7 +336,7 @@ $q = $this -> db
                 </li>
 				<?php } if(  $user_type == 1 || $user_type == 0){?>
                <li class="bold" id="HR_Profile1">
-                  <a href="http://thoughtbuzz.in/Feedback_system/index.php/hr_profile/index/0">
+                  <a href="http://3.16.113.57/feedback/index.php/hr_profile/index/0">
                     <i class="material-icons">invert_colors</i>
                     <span class="nav-text">HR Profile </span>
                   </a>
@@ -344,7 +344,7 @@ $q = $this -> db
                 </li>
 				 <?php } if( $user_type == 3 ||  $user_type == 0){?>
                 <li class="bold" id="Team1">
-                  <a href="http://thoughtbuzz.in/Feedback_system/index.php/team/index/0">
+                  <a href="http://3.16.113.57/feedback/index.php/team/index/0">
                     <i class="material-icons">invert_colors</i>
                     <span class="nav-text">Team </span>
                   </a>
@@ -352,14 +352,14 @@ $q = $this -> db
                 </li>
 				<?php } if($user_type == 2 || $user_type == 3 ){?>
 				<li class="bold" id="Quiz1">
-                  <a href="http://thoughtbuzz.in/Feedback_system/index.php/quiz/index/0">
+                  <a href="http://3.16.113.57/feedback/index.php/quiz/index/0">
                     <i class="material-icons">invert_colors</i>
                     <span class="nav-text"> Question</span>
                   </a>
                  
                 </li>
 				<li class="bold" id="Poll1">
-                  <a href="http://thoughtbuzz.in/Feedback_system/index.php/poll_quiz/index/0">
+                  <a href="http://3.16.113.57/feedback/index.php/poll_quiz/index/0">
                     <i class="material-icons">invert_colors</i>
                     <span class="nav-text"> Poll</span>
                   </a>
@@ -367,7 +367,7 @@ $q = $this -> db
                 </li>
 				<?php } if($user_type == 3 || $user_type == 1 || $user_type == 0){?>
                 <li class="bold" id="Login_History1">
-                  <a href="http://thoughtbuzz.in/Feedback_system/index.php/login_history/index/0">
+                  <a href="http://3.16.113.57/feedback/index.php/login_history/index/0">
                     <i class="material-icons">photo_filter</i>
                     <span class="nav-text">Login History</span>
                   </a>
@@ -381,25 +381,25 @@ $q = $this -> db
                   <div class="collapsible-body">
                     <ul>
                       <li>
-                       <a href="http://thoughtbuzz.in/Feedback_system/index.php/reports/index/0">
+                       <a href="http://3.16.113.57/feedback/index.php/reports/index/0">
                           <i class="material-icons">keyboard_arrow_right</i>
                           <span>Team </span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://thoughtbuzz.in/Feedback_system/index.php/reports/index/0">
+                        <a href="http://3.16.113.57/feedback/index.php/reports/index/0">
                           <i class="material-icons">keyboard_arrow_right</i>
                           <span>Departments </span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://thoughtbuzz.in/Feedback_system/index.php/reports/index/0">
+                        <a href="http://3.16.113.57/feedback/index.php/reports/index/0">
                           <i class="material-icons">keyboard_arrow_right</i>
                           <span>Organization </span>
                         </a>
                       </li>
                      <li>
-                        <a href="http://thoughtbuzz.in/Feedback_system/index.php/reports/index/0">
+                        <a href="http://3.16.113.57/feedback/index.php/reports/index/0">
                           <i class="material-icons">keyboard_arrow_right</i>
                           <span>Comparison </span>
                         </a>

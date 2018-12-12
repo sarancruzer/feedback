@@ -207,7 +207,7 @@ ol, ul {
                     </form>
 			 <div class="right">
 			 Download sample csv file	  
-			<a class="dropdown-button btn-floating btn-large waves-light" href="http://thoughtbuzz.in/Feedback_system/sample.csv" data-activates="dropdown2">
+			<a class="dropdown-button btn-floating btn-large waves-light" href="http://3.16.113.57/feedback/sample.csv" data-activates="dropdown2">
                         <i class="material-icons">vertical_align_bottom</i>
                       </a>			  
 			  </div>		

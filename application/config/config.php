@@ -23,9 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://thoughtbuzz.in/Feedback_system/';
+$config['base_url'] = 'http://3.16.113.57/feedback/';
 
 // $config['base_url'] = 'http://localhost/awss/';
+http://3.16.113.57/feedback/
 
 /*
 |--------------------------------------------------------------------------
